@@ -4,9 +4,15 @@ import { Link } from 'react-router-dom';
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="pagina-app pagina">
+      
       <h1> Estudos de ReactJS</h1>
-      <Link to = '/contato' >Contatos</Link>
+      
+      <ul>
+        <li>
+          <Link to = '/contato' >Contatos</Link>
+        </li>
+      </ul>
     </div>
   );
 }
